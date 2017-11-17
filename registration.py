@@ -1,0 +1,7 @@
+import pygn
+
+clientID = '1583510492-53167BEABBED3ED8E1CF71F85230E1AF' # Enter your Client ID here
+userID = pygn.register(clientID)
+print(userID)
+
+#280729569058437012-F8B3D95D64EA8DD505BA40697C34A407

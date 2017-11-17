@@ -1,0 +1,29 @@
+<RESPONSES>
+    <RESPONSE STATUS="OK">
+        <GENRE ID="25982">Latin</GENRE>
+        <GENRE ID="36060">Blues</GENRE>
+        <GENRE ID="36061">Classical</GENRE>
+        <GENRE ID="25984">World</GENRE>
+        <GENRE ID="36055">Electronica</GENRE>
+        <GENRE ID="36059">Country &amp; Western</GENRE>
+        <GENRE ID="36064">Comedy, Spoken &amp; Other</GENRE>
+        <GENRE ID="25978">Traditional Pop</GENRE>
+        <GENRE ID="25971">Folk</GENRE>
+        <GENRE ID="36051">Punk</GENRE>
+        <GENRE ID="36062">New Age</GENRE>
+        <GENRE ID="25964">Rock</GENRE>
+        <GENRE ID="36057">Soul/R&amp;B</GENRE>
+        <GENRE ID="36063">Soundtrack</GENRE>
+        <GENRE ID="36065">Reggae</GENRE>
+        <GENRE ID="25976">Gospel &amp; Christian</GENRE>
+        <GENRE ID="25980">Children&apos;s</GENRE>
+        <GENRE ID="25961">Alternative</GENRE>
+        <GENRE ID="36053">Metal</GENRE>
+        <GENRE ID="36058">Rap/Hip-Hop</GENRE>
+        <GENRE ID="36056">Pop</GENRE>
+        <GENRE ID="36054">Dance &amp; House</GENRE>
+        <GENRE ID="25965">Oldies</GENRE>
+        <GENRE ID="25974">Jazz</GENRE>
+        <GENRE ID="36052">Indie</GENRE>
+    </RESPONSE>
+</RESPONSES>

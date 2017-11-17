@@ -1,0 +1,29 @@
+<RESPONSES>
+    <RESPONSE STATUS="OK">
+        <MOOD ID="65322">Peaceful</MOOD>
+        <MOOD ID="65323">Romantic</MOOD>
+        <MOOD ID="65324">Sentimental</MOOD>
+        <MOOD ID="42942">Tender</MOOD>
+        <MOOD ID="42946">Easygoing</MOOD>
+        <MOOD ID="65325">Yearning</MOOD>
+        <MOOD ID="42954">Sophisticated</MOOD>
+        <MOOD ID="42947">Sensual</MOOD>
+        <MOOD ID="65326">Cool</MOOD>
+        <MOOD ID="65327">Gritty</MOOD>
+        <MOOD ID="42948">Somber</MOOD>
+        <MOOD ID="42949">Melancholy</MOOD>
+        <MOOD ID="65328">Serious</MOOD>
+        <MOOD ID="65329">Brooding</MOOD>
+        <MOOD ID="42953">Fiery</MOOD>
+        <MOOD ID="42955">Urgent</MOOD>
+        <MOOD ID="42951">Defiant</MOOD>
+        <MOOD ID="42958">Aggressive</MOOD>
+        <MOOD ID="65330">Rowdy</MOOD>
+        <MOOD ID="42960">Excited</MOOD>
+        <MOOD ID="42961">Energizing</MOOD>
+        <MOOD ID="42945">Empowering</MOOD>
+        <MOOD ID="65331">Stirring</MOOD>
+        <MOOD ID="65332">Lively</MOOD>
+        <MOOD ID="65333">Upbeat</MOOD>
+    </RESPONSE>
+</RESPONSES>
