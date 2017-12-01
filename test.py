@@ -3,8 +3,8 @@ from pygn import createRadio
 clientID = '1583510492-53167BEABBED3ED8E1CF71F85230E1AF'
 userID = '280729569058437012-F8B3D95D64EA8DD505BA40697C34A407'
 
-def mood():
-    playlist = pygn.createRadio(clientID=clientID, userID=userID, mood='42960', genre = '36056', popularity ='1000', count='10')
+def findmood(mood_id):
+    playlist = pygn.createRadio(clientID=clientID, userID=userID, mood=mood_id, genre = '36056', popularity ='1000', count='10')
     print(playlist)
 
 def test():
@@ -12,4 +12,3 @@ def test():
     print(metadata)
 
 
-mood()
