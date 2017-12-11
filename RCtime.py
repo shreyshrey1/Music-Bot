@@ -2,6 +2,8 @@ import RPi.GPIO as GPIO, time, os
 from test import findmood
 import pygn
 from pygn import createRadio
+import pygame
+import time
  
 DEBUG = 1
 GPIO.setmode(GPIO.BCM)
@@ -41,19 +43,30 @@ def averagelight():
         return average(arr)
 
 def moodscore():
-        score = 0
+        score = averagelight()
         mood = 0
-        mood = averagelight()
         # Mood calculation formula
-
-        if score <= 0 and score <= 25:
-                mood = 42948 # somber
+        pygame.init()
+        if score >= 0 and score <= 25:
+                mood = '42948' # somber
+                pygame.mixer.music.load("./Songs/To-Build-a-Home-The-Cinematic-Orchestra-Lyrics.wav")
+                pygame.mixer.music.play()
+                time.sleep(30)
         if score >= 25 and score <= 50:
-                mood = 65322 # Peaceful
+                mood = '65322' # Peaceful
+                pygame.mixer.music.load("./Songs/Michelle-Beatles-Cover-Herb-Alpert.wav")
+                pygame.mixer.music.play()
+                time.sleep(30)
         if score >= 50 and score <= 75:
-                mood = 65330 # Rowdy
+                mood = '65330' # Rowdy
+                pygame.mixer.music.load("./Songs/Josh-Turner-Your-Man.wav")
+                pygame.mixer.music.play()
+                time.sleep(30)
         if score >= 75 and score <= 100:
-                mood = 42960 # Excited
+                mood = '42960' # Excited
+                pygame.mixer.music.load("./Songs/Eminem-Berzerk-Official-Explicit.wav")
+                pygame.mixer.music.play()
+                time.sleep(30)
         return findmood(mood)
                 
 print(moodscore())
